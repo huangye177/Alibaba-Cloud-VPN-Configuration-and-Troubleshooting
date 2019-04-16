@@ -7,11 +7,11 @@ This repository was created to help you with easy Virtual Private Network and Cl
 Table of Contents
 =================
 
-      * [Troubleshooting](#troubleshooting)
-         * [Hint 1](#hint-1)
-         * [Hint 2](#hint-2)
-         * [Hint 3](#hint-3)
-         * [Hint 4](#hint-4)
+   * [Troubleshooting](#troubleshooting)
+      * [Hint 1](#hint-1)
+      * [Hint 2](#hint-2)
+      * [Hint 3](#hint-3)
+      * [Hint 4](#hint-4)
 
 ## Troubleshooting
 
