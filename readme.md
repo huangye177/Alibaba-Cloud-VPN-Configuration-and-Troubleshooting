@@ -33,20 +33,20 @@ In case you need to troubleshoot the VPN&CEN configuration you can create an add
 1. Login to Alibaba Cloud console.
 2. Click on **Home** to see all Alibaba Cloud Services.
 3. Under Services, select **Resource Access Management** (RAM).
-![Resource Access Management in the Console](images/1 - RAM.png)
+![Resource Access Management in the Console](images/1-RAM.png)
 4. If you never used the RAM service, you will be asked to activate it.
 5. Once activated you are now on the Dashboard page.
-![Resource Access Management Dashboard](images/2 - RAM.png)
+![Resource Access Management Dashboard](images/2- AM.png)
 6. Copy the RAM Login Link.
-![RAM User logon URL](images/3 - RAM.png)
+![RAM User logon URL](images/3-RAM.png)
 7. Navigate to **Users**.
 8. Click **Create User**.
 9. At **Logon Name** and **Display Name** enter **Alibaba_Support_Read-Only** (or any username as you wish), **uncheck** the box **Programmatic Access** and check **Console Password Logon**.<br/>
 You can automatically generate password or force user to change the password when logging next time and enable or disable Multi Facto Authentication (MFA).
-![RAM User Creation](images/4 - RAM.png)
+![RAM User Creation](images/4-RAM.png)
 10. User was created.
-![New user created](images/5 - RAM.png)
+![New user created](images/5-RAM.png)
 11. Select user and click **Add Permissions**.
 12. Search for the System Policy with name **ReadOnlyAccess** and click ok.
-![Ready Only Access RAM Policy](images/6 - RAM.png)
+![Ready Only Access RAM Policy](images/6-RAM.png)
 13. User can now login.
