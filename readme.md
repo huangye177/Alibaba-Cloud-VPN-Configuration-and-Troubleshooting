@@ -15,6 +15,7 @@ Table of Contents
          * [Hint 4 - triple check local and remote networks from both IDC and Alibaba Cloud perspective](#hint-4---triple-check-local-and-remote-networks-from-both-idc-and-alibaba-cloud-perspective)
          * [Hint 5 - add correct networks to route table](#hint-5---add-correct-networks-to-route-table)
          * [Hint 6 - create a Read Only User for troubleshooting](#hint-6---create-a-read-only-user-for-troubleshooting)
+         * [Hint 7 - Check your MTU and MSS settings](#hint-7---check-your-mtu-and-mss-settings)
 
 ## Troubleshooting
 
