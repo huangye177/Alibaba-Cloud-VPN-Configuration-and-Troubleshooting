@@ -103,3 +103,12 @@ You can automatically generate password or force user to change the password whe
 12. Search for the System Policy with name **ReadOnlyAccess** and click ok.
 ![Ready Only Access RAM Policy](images/6-RAM.png)
 13. User can now login.
+
+### Hint 7 - Check your MTU and MSS settings
+The maximum transmission unit (MTU) of a network connection is the size, in bytes, of the largest permissible packet that can be passed over the connection. The larger the MTU of a connection, the more data that can be passed in a single packet. Ethernet packets consist of the frame, or the actual data you are sending, and the network overhead information that surrounds it.
+The VPC of Alibaba Cloud supports 1500 bytes at max which is also the largest Ethernet packet size supported over most of the 
+Internet. So make sure to adjust your local MTU settings accordingly.
+
+The Maximum Segment Size (MSS) is the largest amount of data that a host can receive in a single TCP segment. In the context of an IPSec connection plus CEN, the MTU is typically the MSS plus IPv4 header size (20 bytes) plus TCP header size (20 bytes) + IPSec header size (tunnel mode: 20 bytes) + VXLan header size (50 bytes). 
+
+So make sure to adjust your MSS size accordingly that MTU + MSS <= 1500 bytes. Otherwise packet fragmentation and or packet drops will occur resulting in degraded performance.
