@@ -1,4 +1,4 @@
-# Alibaba Cloud VPN Gateway Configuration and Troubleshooting
+# Alibaba Cloud VPN Gateway & Cloud Enterprise Network Configuration and Troubleshooting
 
 ![Alibaba Cloud Logo](images/AlibabaCloudLogo500px.png)
 
