@@ -7,13 +7,14 @@ This repository was created to help you with easy Virtual Private Network and Cl
 Table of Contents
 =================
 
-   * [Troubleshooting](#troubleshooting)
-      * [Hint 1 - check your IDC VPN capabilities](#hint-1)
-      * [Hint 2 - check your configuration](#hint-2)
-      * [Hint 3 - create a network topology diagram](#hint-3)
-      * [Hint 4 - triple check local and remote networks from both IDC and Alibaba Cloud perspective](#hint-4)
-      * [Hint 5 - add correct networks to route table](#hint-5)
-      * [Hint 6 - create a Read Only User for troubleshooting](#hint-6)
+   * [Table of Contents](#table-of-contents)
+      * [Troubleshooting](#troubleshooting)
+         * [Hint 1 - check your IDC VPN capabilities](#hint-1---check-your-idc-vpn-capabilities)
+         * [Hint 2 - check your configuration](#hint-2---check-your-configuration)
+         * [Hint 3 - create a network topology diagram](#hint-3---create-a-network-topology-diagram)
+         * [Hint 4 - triple check local and remote networks from both IDC and Alibaba Cloud perspective](#hint-4---triple-check-local-and-remote-networks-from-both-idc-and-alibaba-cloud-perspective)
+         * [Hint 5 - add correct networks to route table](#hint-5---add-correct-networks-to-route-table)
+         * [Hint 6 - create a Read Only User for troubleshooting](#hint-6---create-a-read-only-user-for-troubleshooting)
 
 ## Troubleshooting
 
