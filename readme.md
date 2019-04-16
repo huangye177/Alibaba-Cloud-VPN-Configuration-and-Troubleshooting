@@ -1,6 +1,6 @@
 # Alibaba Cloud VPN Gateway Configuration and Troubleshooting
 
-<center>![Alibaba Cloud Logo](images/AlibabaCloudLogo500px.png)<center/>
+![Alibaba Cloud Logo](images/AlibabaCloudLogo500px.png)
 
 This repository was created to help you with easy Virtual Private Network and Cloud Enterprise Network configuration and troubleshooting.
 
