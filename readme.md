@@ -4,6 +4,16 @@
 
 This repository was created to help you with easy Virtual Private Network and Cloud Enterprise Network configuration and troubleshooting.
 
+Table of Contents
+=================
+
+   * [Alibaba Cloud VPN Gateway Configuration and Troubleshooting](#alibaba-cloud-vpn-gateway-configuration-and-troubleshooting)
+      * [Troubleshooting](#troubleshooting)
+         * [Hint 1](#hint-1)
+         * [Hint 2](#hint-2)
+         * [Hint 3](#hint-3)
+         * [Hint 4](#hint-4)
+
 ## Troubleshooting
 
 ### Hint 1
