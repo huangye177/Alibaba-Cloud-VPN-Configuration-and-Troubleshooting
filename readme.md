@@ -7,7 +7,6 @@ This repository was created to help you with easy Virtual Private Network and Cl
 Table of Contents
 =================
 
-   * [Alibaba Cloud VPN Gateway Configuration and Troubleshooting](#alibaba-cloud-vpn-gateway-configuration-and-troubleshooting)
       * [Troubleshooting](#troubleshooting)
          * [Hint 1](#hint-1)
          * [Hint 2](#hint-2)
