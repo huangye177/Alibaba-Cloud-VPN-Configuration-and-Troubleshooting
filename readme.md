@@ -12,7 +12,8 @@ Table of Contents
       * [Hint 2 - check your configuration](#hint-2)
       * [Hint 3 - create a network topology diagram](#hint-3)
       * [Hint 4 - triple check local and remote networks from both IDC and Alibaba Cloud perspective](#hint-4)
-      * [Hint 5 - Create a Read Only User for troubleshooting](#hint-5)
+      * [Hint 5 - add correct networks to route table](#hint-5)
+      * [Hint 6 - create a Read Only User for troubleshooting](#hint-5)
 
 ## Troubleshooting
 
@@ -44,7 +45,40 @@ Use the environment details as a checkup for any mistakes in local and remote ne
 
 Many customers make errors in those. Try to understand what is local network from your IDC perspective and Alibaba Cloud VPN Gateway perspective.
 
-### Hint 5 - Create a Read Only User for troubleshooting
+### Hint 5 - add correct networks to route table
+
+Routing, especially when combined with VPN Gateways in IDC-to-IDC configuration might be tricky.
+
+When configuring or to be precise advertising networks in **CEN** it is important to include all necessary networks.
+
+#### Example Network CIDR ranges
+
+##### IDC Location 1
+
+Local network segment: 10.0.10.0/24
+
+##### Alibaba Cloud Location 1
+Local network segment: 172.16.10.0/24
+
+##### Alibaba Cloud Location 2
+
+Local network segment: 172.16.20.0/24
+
+##### IDC Location 2
+
+Local network segment: 10.0.20.0/24
+
+#### Properly configured routing in CEN
+
+In addition to already created routes we should publish in CEN:
+- Alibaba Cloud **Location 1 VPC** advertise network from **customer IDC 1**:<br>
+10.0.10.0/24 with destination Alibaba Cloud Location 2 VPC
+- Any other **IDC 1 network if IKEv2** is used
+- Alibaba Cloud **Location 2 VPC** advertise network from **customer IDC 2**:<br>
+10.0.20.0/24 with destination Alibaba Cloud Location 1 VPC
+- Any other **IDC 2 network if IKEv2** is used
+
+### Hint 6 - create a Read Only User for troubleshooting
 
 In case you need to troubleshoot the VPN&CEN configuration you can create an additional Resource Access Management (RAM) user with **Read Only Policy**.
 
