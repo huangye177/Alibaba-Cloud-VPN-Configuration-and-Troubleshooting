@@ -13,7 +13,7 @@ Table of Contents
       * [Hint 3 - create a network topology diagram](#hint-3)
       * [Hint 4 - triple check local and remote networks from both IDC and Alibaba Cloud perspective](#hint-4)
       * [Hint 5 - add correct networks to route table](#hint-5)
-      * [Hint 6 - create a Read Only User for troubleshooting](#hint-5)
+      * [Hint 6 - create a Read Only User for troubleshooting](#hint-6)
 
 ## Troubleshooting
 
