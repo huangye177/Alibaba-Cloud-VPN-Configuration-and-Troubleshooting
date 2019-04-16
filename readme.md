@@ -12,16 +12,25 @@ Table of Contents
       * [Hint 2](#hint-2)
       * [Hint 3](#hint-3)
       * [Hint 4](#hint-4)
+      * [Hint 5](#hint-5)
 
 ## Troubleshooting
 
 ### Hint 1
 
+One of the most important things to consider is the IKE version your local devices support.
+
+It is important because IKEv1 has many limitation in comparison to IKEv2.
+
+The most critical one is the ability to add/insert more than one **local and remote network**. I've seen many customers having the necessity to include more than one local network and it wasn't possible due to the local IDC hardware limitation.
+
+### Hint 2
+
 Before troubleshooting and configuration it is recommended to fill in the https://github.com/wojciehm/Alibaba-Cloud-VPN-Configuration-and-Troubleshooting/blob/master/environment-details.md file.
 
 Once you have the environment details it could be used for configuration and troubleshooting.
 
-### Hint 2
+### Hint 3
 
 The second step which helps many customers I worked with is to use the draw.io diagram I created and fill it in with all possible data. This step is crucial to confirm that everything is configured.
 
@@ -29,13 +38,13 @@ Link to the file https://github.com/wojciehm/Alibaba-Cloud-VPN-Configuration-and
 
 ![Sample Diagram](images/VPNDiagram-sample.png)
 
-### Hint 3
+### Hint 4
 
 Use the environment details as a checkup for any mistakes in local and remote networks.
 
 Many customers make errors in those. Try to understand what is local network from your IDC perspective and Alibaba Cloud VPN Gateway perspective.
 
-### Hint 4
+### Hint 5
 
 In case you need to troubleshoot the VPN&CEN configuration you can create an additional Resource Access Management (RAM) user with **Read Only Policy**.
 
